@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <style>
+        body {
+            background-color: rgb(235, 232, 243);
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #777;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Vitor Andrade Veiga da Silva - Desenvolvedor Web</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+
+            <img src="Foto_Portfolio/foto_perfil.png" width="150" height="150" alt="Foto de perfil">
+
+            <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.</p>
+
+            <p>Tenho conhecimento em <em>HTML</em> e <em>CSS</em>.</p>
+
+            <h3>Minhas Habilidades:</h3>
+
+            <ul>
+                <li>HTML5 Semântico</li>
+                <li>CSS3 e Responsividade</li>
+                <li>Formulários e Validação</li>
+                <li>Estruturação de Dados</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Página Informativa<br>Filme Homem-Aranha</td>
+                        <td>HTML, CSS</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/VitorVeiga-S/ATV_Filme" target="_blank">Ver<br>Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>GameZone - Loja Retro</td>
+                        <td>HTML, CSS</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/VitorVeiga-S/ATV_HTML_01-GameZone_Retro" target="_blank">Ver<br>Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Verificador de Maioridade<br>em PHP</td>
+                        <td>HTML, PHP,<br>CSS</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/VitorVeiga-S/Verificador_de_Maioridade-PHP" target="_blank">Ver<br>Projeto</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome"><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="assunto">Assunto:</label><br>
+                    <select id="assunto" name="assunto">
+                        <option value="oportunidade">Oportunidade de Trabalho</option>
+                        <option value="proposta_de_projeto">Proposta de Projeto</option>
+                        <option value="contato_geral">Contato Geral</option>
+                    </select><br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" cols="20"></textarea><br><br>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+        <hr>
+        <p>
+            <a href="mailto:vitorandradeveiga.silva@gmail.com">vitorandradeveiga.silva@gmail.com</a>
+            |
+            <a href="tel:+5511983236452">+55 (11) 98323-6452</a>
+        </p>
+    </footer>
+
+</body>
+</html>
